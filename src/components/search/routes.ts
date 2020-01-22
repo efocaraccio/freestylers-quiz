@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-
+import { checkSearchParam } from "../../middleware/checks";
 
 /* 
 This is an example of a how a Service should be done. 
@@ -15,8 +15,11 @@ export default [
   {
     path: "/",
     method: "get",
-    handler: async (req: Request, res: Response) => {
-      res.send("Hello world!");
-    }
+    handler: [
+        checkSearchParam, //Example of how to add general validations
+        async (req: Request, res: Response) => {
+        res.send("Hello world!");
+      }
+    ]
   }
 ];

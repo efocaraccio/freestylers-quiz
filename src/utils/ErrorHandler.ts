@@ -2,13 +2,14 @@
 /* Declare the functions that will encapsulate the logic of how to manage every error */
 
 import { Response, NextFunction } from "express";
-import { HTTPClientError, HTTP404Error } from "../utils/httpErrors";
+import { HTTPClientError, HTTP404Error } from "./httpErrors";
 
 export const notFoundError = () => {
   throw new HTTP404Error("Method not found.");
 };
 
 export const clientError = (err: Error, res: Response, next: NextFunction) => {
+  console.log("llegue");
   if (err instanceof HTTPClientError) {
     console.warn(err);
     res.status(err.statusCode).send(err.message);

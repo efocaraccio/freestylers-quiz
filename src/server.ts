@@ -1,7 +1,7 @@
 import http from "http";
 import express from "express";
 import { applyMiddleware, applyRoutes } from "./utils";
-import routes from "./services";
+import routes from "./components";
 import middleware from "./middleware";
 import errorHandlers from "./middleware/errorHandlers";
 
@@ -25,7 +25,7 @@ applyRoutes(routes, router);
 // Add errors' handlers
 applyMiddleware(errorHandlers, router);
 
-const { PORT = 3000 } = process.env;
+const { PORT = 5000 } = process.env;
 const server = http.createServer(router);
 
 

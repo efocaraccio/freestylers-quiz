@@ -1,0 +1,93 @@
+{
+    "pais": "España",
+    "questions" : [
+        {
+            "title": "¿Cuántas FMS ganó Chuty?",
+            "img": "img/",
+            "options": [
+                {
+                    "text": 0,
+                    "correct": false
+                },
+                {
+                    "text": 1,
+                    "correct": false
+                },
+                {
+                    "text": 2,
+                    "correct": false
+                },
+                {
+                    "text": 3,
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "¿Cuándo fue Skone campeón mundial de Red Bull?",
+            "img": "img/",
+            "options": [
+                {
+                    "text": "2014",
+                    "correct": false
+                },
+                {
+                    "text": "2015",
+                    "correct": false
+                },
+                {
+                    "text": "2016",
+                    "correct": true
+                },
+                {
+                    "text": "2017",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿Cuántas Red Bull nacionales disputó Blon?",
+            "img": "img/",
+            "options": [
+                {
+                    "text": 5,
+                    "correct": false
+                },
+                {
+                    "text": 6,
+                    "correct": false
+                },
+                {
+                    "text": 7,
+                    "correct": true
+                },
+                {
+                    "text": 8,
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿Con quién hizo pareja Force en la primer God Level All Stars 2vs2?",
+            "img": "img/",
+            "options": [
+                {
+                    "text": "Skone",
+                    "correct": false
+                },
+                {
+                    "text": "Errece",
+                    "correct": false
+                },
+                {
+                    "text": "Walls",
+                    "correct": true
+                },
+                {
+                    "text": "Chuty",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

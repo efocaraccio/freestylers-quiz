@@ -1,0 +1,93 @@
+{
+    "pais": "Argentina",
+    "questions" : [
+        {
+            "title": "¿Cuántas finales internacionales de Red Bull disputó Wos?",
+            "img": "img/wos.png",
+            "options": [
+                {
+                    "text": 0,
+                    "correct": false
+                },
+                {
+                    "text": 1,
+                    "correct": true
+                },
+                {
+                    "text": 2,
+                    "correct": false
+                },
+                {
+                    "text": 3,
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿En qué año ganó Papo la Red Bull nacional?",
+            "img": "img/papo.png",
+            "options": [
+                {
+                    "text": "2014",
+                    "correct": false
+                },
+                {
+                    "text": "2015",
+                    "correct": false
+                },
+                {
+                    "text": "2016",
+                    "correct": true
+                },
+                {
+                    "text": "2017",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿En qué puesto quedó Trueno en la primer temporada de FMS?",
+            "img": "img/trueno.png",
+            "options": [
+                {
+                    "text": 3,
+                    "correct": false
+                },
+                {
+                    "text": 5,
+                    "correct": false
+                },
+                {
+                    "text": 8,
+                    "correct": false
+                },
+                {
+                    "text": 10,
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "¿De qué competencia salió campeón mundial Cacha junto a Dominic?",
+            "img": "img/cacha.png",
+            "options": [
+                {
+                    "text": "Red Bull",
+                    "correct": false
+                },
+                {
+                    "text": "Ghetto Dreams League",
+                    "correct": false
+                },
+                {
+                    "text": "Pangea Free",
+                    "correct": true
+                },
+                {
+                    "text": "God Level",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
