@@ -4,19 +4,19 @@ import { Request, Response } from "express";
 let countries = { countries:[
     {
         name: "Argentina",
-        flag: "img/arg.png"
+        flag: "argflag.png"
     },
     {
         name: "España",
-        flag: "img/esp.png"
+        flag: "espflag.svg"
     },
     {
         name: "Chile",
-        flag: "img/chl.png"
+        flag: "chlflag.svg"
     },
     {
         name: "México",
-        flag: "img/mex.png"
+        flag: "mexflag.png"
     }]};
 
 export const countryList = [ "argentina", "chile", "espana", "mexico" ]
