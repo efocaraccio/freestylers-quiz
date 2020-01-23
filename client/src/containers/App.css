@@ -5,13 +5,22 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+@media(max-width: 460px){
   .App-logo {
-    /*animation: App-logo-spin infinite 20s linear;*/
+    height: 65vmin;
   }
 }
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
 
 .App-header {
   background-image: url("../img/brickwall.jpg");
