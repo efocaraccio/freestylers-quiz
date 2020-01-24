@@ -14,7 +14,6 @@ class Home extends React.Component{
     }
     
     getCountries () {
-        let countries;
         fetch(process.env.REACT_APP_BACKEND_URL + "/countries")
             .then( response => response.json())
             .then( data => {
@@ -22,14 +21,23 @@ class Home extends React.Component{
             });
     };
 
+
+
     render(){
         if(!this.state.countries)
-            return null
+            return null;
             
         let content = [];
-        
+
         for( var i = 0; i< this.state.countries.countries.length ; i++ ){
-            content.push(<Card img={`${this.state.countries.countries[i].flag}`} title={`${this.state.countries.countries[i].name}`} onClick={ () => this.props.onPageChange(this.props.PAGES.FREESTYLERS) } />);
+            let value = this.state.countries.countries[i].value;
+
+            content.push(<Card 
+                    isQuestionCard={false}
+                    img={`${this.state.countries.countries[i].flag}`} 
+                    title={`${this.state.countries.countries[i].name}`} 
+                    onClick={ () => this.props.onPageChange(this.props.PAGES.QUESTIONS, value)}  
+                    />);
         }
 
         return(

@@ -4,18 +4,22 @@ import { Request, Response } from "express";
 let countries = { countries:[
     {
         name: "Argentina",
+        value: "argentina",
         flag: "argflag.png"
     },
     {
         name: "España",
+        value: "espana",
         flag: "espflag.svg"
     },
     {
         name: "Chile",
+        value: "chile",
         flag: "chlflag.svg"
     },
     {
         name: "México",
+        value: "mexico",
         flag: "mexflag.png"
     }]};
 

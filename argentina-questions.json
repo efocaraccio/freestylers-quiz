@@ -3,7 +3,7 @@
     "questions" : [
         {
             "title": "¿Cuántas finales internacionales de Red Bull disputó Wos?",
-            "img": "img/wos.png",
+            "img": "wos.jpg",
             "options": [
                 {
                     "text": 0,
@@ -11,11 +11,11 @@
                 },
                 {
                     "text": 1,
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": 2,
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": 3,
@@ -25,7 +25,7 @@
         },
         {
             "title": "¿En qué año ganó Papo la Red Bull nacional?",
-            "img": "img/papo.png",
+            "img": "papo.jpeg",
             "options": [
                 {
                     "text": "2014",
@@ -47,7 +47,7 @@
         },
         {
             "title": "¿En qué puesto quedó Trueno en la primer temporada de FMS?",
-            "img": "img/trueno.png",
+            "img": "trueno.jpg",
             "options": [
                 {
                     "text": 3,
@@ -69,7 +69,7 @@
         },
         {
             "title": "¿De qué competencia salió campeón mundial Cacha junto a Dominic?",
-            "img": "img/cacha.png",
+            "img": "cacha.jpg",
             "options": [
                 {
                     "text": "Red Bull",

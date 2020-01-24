@@ -15,7 +15,7 @@ class Home extends React.Component{
           <div>
             <img src={logo} className="App-logo" alt="logo" />
             <div>
-            <Button text="Comenzar Quiz" onClick={ () => this.props.onPageChange(this.props.PAGES.COUNTRIES) }/>
+              <Button text="Comenzar Quiz" onClick={ () => this.props.onPageChange(this.props.PAGES.COUNTRIES) }/>
             </div>
           </div>
         );
