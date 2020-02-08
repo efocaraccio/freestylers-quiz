@@ -2,89 +2,89 @@
     "pais": "Chile",
     "questions" : [
         {
-            "title": "¿Cuántas FMS ganó Chuty?",
-            "img": "img/",
+            "title": "¿Al ganar qué competencia saltó a la fama Teorema?",
+            "img": "teorema.jpg",
             "options": [
                 {
-                    "text": 0,
-                    "correct": false
-                },
-                {
-                    "text": 1,
-                    "correct": false
-                },
-                {
-                    "text": 2,
-                    "correct": false
-                },
-                {
-                    "text": 3,
-                    "correct": true
-                }
-            ]
-        },
-        {
-            "title": "¿Cuándo fue Skone campeón mundial de Red Bull?",
-            "img": "img/",
-            "options": [
-                {
-                    "text": "2014",
-                    "correct": false
-                },
-                {
-                    "text": "2015",
-                    "correct": false
-                },
-                {
-                    "text": "2016",
+                    "text": "BRM",
                     "correct": true
                 },
                 {
-                    "text": "2017",
+                    "text": "Red Bull",
+                    "correct": false
+                },
+                {
+                    "text": "FMS",
+                    "correct": false
+                },
+                {
+                    "text": "GodLevel",
                     "correct": false
                 }
             ]
         },
         {
-            "title": "¿Cuántas Red Bull nacionales disputó Blon?",
-            "img": "img/",
+            "title": "¿En donde se realiza la famosa competencia de calle DEM?",
+            "img": "dem.jpg",
             "options": [
                 {
-                    "text": 5,
+                    "text": "Parque Rivadavia",
                     "correct": false
                 },
                 {
-                    "text": 6,
-                    "correct": false
-                },
-                {
-                    "text": 7,
+                    "text": "Parque Bustamante",
                     "correct": true
                 },
                 {
-                    "text": 8,
+                    "text": "Parque Independecia",
+                    "correct": false
+                },
+                {
+                    "text": "Parque Julio Dominguez",
                     "correct": false
                 }
             ]
         },
         {
-            "title": "¿Con quién hizo pareja Force en la primer God Level All Stars 2vs2?",
-            "img": "img/",
+            "title": "¿Quiénes fueron los compañeros de equipo de Nitro cuando logró salir campeón de GodLevel?",
+            "img": "nitro.jpeg",
             "options": [
                 {
-                    "text": "Skone",
+                    "text": "Ricto - El menor",
                     "correct": false
                 },
                 {
-                    "text": "Errece",
+                    "text": "Kaiser - Ricto",
                     "correct": false
                 },
                 {
-                    "text": "Walls",
+                    "text": "El menor - Teorema ",
+                    "correct": false
+                },
+                {
+                    "text": "Teorema - Kaiser",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "¿Cuál es su apodo?",
+            "img": "kaiser.jpg",
+            "options": [
+                {
+                    "text": "El maldito",
                     "correct": true
                 },
                 {
-                    "text": "Chuty",
+                    "text": "La bestia",
+                    "correct": false
+                },
+                {
+                    "text": "El diablo",
+                    "correct": false
+                },
+                {
+                    "text": "El lobo",
                     "correct": false
                 }
             ]

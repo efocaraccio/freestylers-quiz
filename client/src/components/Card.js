@@ -15,9 +15,9 @@ class Card extends React.Component{
             let classes = "option";
             
             if(this.props.isAnswered){
-                if(el.correct == true && this.props.answeredCorrectly)
+                if(el.correct === true && this.props.answeredCorrectly)
                     classes += " green-background"
-                else if( index == this.props.optSelected)
+                else if( index === this.props.optSelected)
                         classes += " red-background"
             } else {
                 func = () => this.props.onClick(el.correct,this.props.index, index);

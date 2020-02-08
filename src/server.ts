@@ -25,7 +25,7 @@ applyRoutes(routes, router);
 // Add errors' handlers
 applyMiddleware(errorHandlers, router);
 
-const { PORT = 5000 } = process.env;
+const { PORT = 5005 } = process.env;
 const server = http.createServer(router);
 
 

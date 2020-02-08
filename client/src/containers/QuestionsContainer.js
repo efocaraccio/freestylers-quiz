@@ -31,10 +31,19 @@ class QuestionsContainer extends React.Component {
     checkAnswer = (correct, questionIndex, optIndex) => {
         this.setState( { questionsAnswered: this.state.questionsAnswered+1,
                         lastQuestionAnswered: questionIndex
-                    } );
-        this.state.questionsData[questionIndex].optSelected = optIndex;
-        this.state.questionsData[questionIndex].answered = true;
-        this.state.questionsData[questionIndex].answeredCorrectly = correct;
+                    } );         
+        this.setState(prevState => ({
+            questionsData: prevState.questionsData.map( (el, index) => {
+                if(index === questionIndex){
+                    return { ...el ,
+                            optSelected: optIndex,
+                            answered: true,
+                            answeredCorrectly: correct
+                    }              
+                }
+                return el;
+            })   
+          }));
     }
 
     render(){
@@ -45,6 +54,7 @@ class QuestionsContainer extends React.Component {
 
         for( var i = 0; i< this.state.questionsData.length ; i++ ){
             content.push(<Card 
+                    key={i} 
                     isQuestionCard={true}
                     img={this.state.questionsData[i].img}
                     title={this.state.questionsData[i].title}

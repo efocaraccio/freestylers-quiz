@@ -1,0 +1,93 @@
+{
+    "pais": "México",
+    "questions" : [
+        {
+            "title": "¿Quién es el mejor freestylero que se ha parido?",
+            "img": "fmsmex.png",
+            "options": [
+                {
+                    "text": "Dominic",
+                    "correct": false
+                },
+                {
+                    "text": "RC",
+                    "correct": false
+                },
+                {
+                    "text": "Aczino",
+                    "correct": true
+                },
+                {
+                    "text": "Rapder",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿Con qué se le suele tirar a Dominic?",
+            "img": "dominic.jpg",
+            "options": [
+                {
+                    "text": "La novia lo engañó",
+                    "correct": false
+                },
+                {
+                    "text": "Perdió un avión a un evento",
+                    "correct": true
+                },
+                {
+                    "text": "Se olvidó el nombre de su compañero de equipo en una batalla",
+                    "correct": false
+                },
+                {
+                    "text": "Perdió dos finales de RedBull seguidas",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿En qué posición quedó RC en FMS temporada 1?",
+            "img": "rc.jpg",
+            "options": [
+                {
+                    "text": 2,
+                    "correct": true
+                },
+                {
+                    "text": 3,
+                    "correct": false
+                },
+                {
+                    "text": 4,
+                    "correct": false
+                },
+                {
+                    "text": 5,
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "¿Quién es la mascota de Aczino?",
+            "img": "aczino.jpg",
+            "options": [
+                {
+                    "text": "Wos",
+                    "correct": false
+                },
+                {
+                    "text": "Dominic",
+                    "correct": false
+                },
+                {
+                    "text": "Cacha",
+                    "correct": false
+                },
+                {
+                    "text": "Papo",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}
